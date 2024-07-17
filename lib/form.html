@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form action="#" method="post" enctype="multipart/form-data">
+        <label>名前:
+        <input type="text" name="name"></label><br>
+        パスワード：<input type="password" name="pass"><br>
+        性別：<input type = "radio" name="gender" value="male" checked>男性
+        <input type = "radio" name="gender" value="female" checked>女性<br>
+        <input type="checkbox" name="triathlon" value="swim"checked>水泳<br>
+        <input type="checkbox" name="triathlon" value="bike"checked>自転車<br>
+        <input type="checkbox" name="triathlon" value="run"checked>走る<br>
+        ファイル：<input type="file" name="resume"><br>
+        <input type="hidden" name="employeeId" value="12345"><br>
+        テキストエリア：<br><textarea name="textarea" rows="3" cols="20">備考欄</textarea><br>
+        
+        <select name="sports" >
+            <option value="swim"selected>水泳</option>
+            <option value="bike"selected>自転車</option>
+            <option value="run"selected>ラン</option>
+        </select><br>
+
+        <select name="sports" multiple>
+            <option value="swim">水泳</option>
+            <option value="bike">自転車</option>
+            <option value="run">ラン</option>
+        </select><br>
+
+        <button>送信</button>
+        <button type="button">アクション</button>
+
+    </form>
+
+</body> 
+
+</html>
